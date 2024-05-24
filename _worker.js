@@ -8,7 +8,7 @@ let userID = '77a571fb-4fd2-4b37-8596-1b7d9728bb5c';
 
 const proxyIPs = ["workers.cloudflare.cyou"];
 
-let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
+let proxyIP =server="cloudflare" && country="US" && city="Chicago" && port="443";
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
