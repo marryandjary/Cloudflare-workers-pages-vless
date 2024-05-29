@@ -8,7 +8,9 @@ let userID = '77a571fb-4fd2-4b37-8596-1b7d9728bb5c';
 
 const proxyIPs = ["workers.cloudflare.cyou"];
 
-let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
+let proxyIP ='cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org, workers.cloudflare.cyou'
+
+let sub = '';// 留空则使用内置订阅;
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
