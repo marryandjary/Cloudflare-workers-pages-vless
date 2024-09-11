@@ -1,6 +1,6 @@
 修改 _worker.js 文件第九行
 
-const proxyIPs = ["[2606:2e00:0:7c:225:90ff:fe47:76a6]:4000"]
+const proxyIPs = ["128.204.223.118"]
 或者
 const proxyIPs = ["[替换为ipv6地址]"]
 
